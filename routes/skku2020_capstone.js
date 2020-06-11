@@ -9,7 +9,6 @@ router.get('/', function(req, res, next) {
     result.sizeX = 1080;
     result.sizeY = 1920;
     result.data = Array();
-    stringify()
     res.send(result);
 });
 
